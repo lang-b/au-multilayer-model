@@ -1,0 +1,34 @@
+{
+  "map_id": "telstra_backbone_map_2025",
+  "file": {
+    "path": "data/topology-maps/telstra_backbone_map_2025.jpg",
+    "format": ".jpg",
+    "original_file_name": "ICF-map_standard-656x370-2x_1312x740.jpg"
+  },
+  "source": {
+    "url": "https://infraco.telstra.com.au/solutions/intercity-dark-fibre-network",
+    "publisher": "Telstra",
+    "author": null,
+    "license": "unknown",
+    "year": "2025",
+    "month": null
+  },
+  "acquisition": {
+    "method": "manual_online",
+    "date_acquired": "2025-01-26"
+  },
+  "geolocation": {
+    "regions": ["Australia"],
+    "coverage": "country"
+  },
+  "content": {
+    "map_type": "topology map",
+    "network_layer": "isp_backbone",
+    "isp": "Telstra",
+    "internet_layer": "PoP",
+    "classification": "corporate",
+    "version": "1.0",
+    "type": "communication"
+  },
+  "notes": "Aura network. Whole of AUS. Supporting doc: telstra_backbone_map_brochure_2025.pdf"
+}

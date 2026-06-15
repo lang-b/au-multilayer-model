@@ -1,0 +1,34 @@
+{
+  "map_id": "nextgen_backbone_map_2013",
+  "file": {
+    "path": "data/topology-maps/nextgen_backbone_map_2013.png",
+    "format": "png",
+    "original_file_name": null
+  },
+  "source": {
+    "url": "https://bbmaps.itu.int/validation/?p=896",
+    "publisher": "NextGen",
+    "author": null,
+    "license": "unknown",
+    "year": "2013",
+    "month": "October"
+  },
+  "acquisition": {
+    "method": "manual_online",
+    "date_acquired": "2025-01-26"
+  },
+  "geolocation": {
+    "regions": ["Australia"],
+    "coverage": "country"
+  },
+  "content": {
+    "map_type": "topology map",
+    "network_layer": "isp_backbone",
+    "isp": "NextGen",
+    "internet_layer": "PoP",
+    "classification": "corporate",
+    "version": "1.0",
+    "type": "communication"
+  },
+  "notes": ""
+}

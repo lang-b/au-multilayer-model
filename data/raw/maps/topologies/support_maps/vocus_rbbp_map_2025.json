@@ -1,0 +1,34 @@
+{
+  "map_id": "vocus_rbbp_map_2025",
+  "file": {
+    "path": "data/topology-maps/vocus_rbbp_map_2025.webp",
+    "format": "webp",
+    "original_file_name": "a7eb5d888cb211f0a36c1222d4c41487.webp"
+  },
+  "source": {
+    "url": "https://www.vocus.com.au/about-vocus/our-network/australia/regional-backbone-blackspots-program",
+    "publisher": "Vocus",
+    "author": null,
+    "license": "unknown",
+    "year": "2025",
+    "month": null
+  },
+  "acquisition": {
+    "method": "manual_online",
+    "date_acquired": "2025-04-01"
+  },
+  "geolocation": {
+    "regions": ["Australia"],
+    "coverage": "country"
+  },
+  "content": {
+    "map_type": "topology map",
+    "network_layer": "isp_backbone",
+    "isp": "Vocus",
+    "internet_layer": "PoP",
+    "classification": "corporate",
+    "version": "1.0",
+    "type": "communication"
+  },
+  "notes": ""
+}

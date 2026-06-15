@@ -1,0 +1,34 @@
+{
+  "map_id": "optus_backbone_map_2019",
+  "file": {
+    "path": "data/topology-maps/optus_backbone_map_2019.png",
+    "format": "png",
+    "original_file_name": null
+  },
+  "source": {
+    "url": "https://www.comparebroadband.com.au/broadband-articles/optus-news-id17/optus-future-nbn-4g-and-wholesale-id941/",
+    "publisher": "Compare Broadband",
+    "author": "Adam Wajnberg",
+    "license": "unknown",
+    "year": "2019",
+    "month": "November"
+  },
+  "acquisition": {
+    "method": "manual_online",
+    "date_acquired": "2025-01-26"
+  },
+  "geolocation": {
+    "regions": ["Australia"],
+    "coverage": "country"
+  },
+  "content": {
+    "map_type": "topology map",
+    "network_layer": "isp_backbone",
+    "isp": "Optus",
+    "internet_layer": "PoP",
+    "classification": "corporate",
+    "version": "1.0",
+    "type": "communication"
+  },
+  "notes": ""
+}

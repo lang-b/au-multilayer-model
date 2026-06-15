@@ -1,0 +1,34 @@
+{
+  "map_id": "superloop_backbone_map_2017",
+  "file": {
+    "path": "data/topology-maps/superloop_backbone_map_2017.webp",
+    "format": "webp",
+    "original_file_name": "superloop-subsea-cable-network.webp"
+  },
+  "source": {
+    "url": "https://www.zdnet.com/article/superloop-acquires-subsea-cable-company-subpartners/",
+    "publisher": "ZDNet",
+    "author": "Corinne Reichert",
+    "license": "unknown",
+    "year": "2017",
+    "month": "April"
+  },
+  "acquisition": {
+    "method": "manual_online",
+    "date_acquired": "2025-01-26"
+  },
+  "geolocation": {
+    "regions": ["Australia"],
+    "coverage": "country"
+  },
+  "content": {
+    "map_type": "topology map",
+    "network_layer": "isp_backbone",
+    "isp": "Superloop",
+    "internet_layer": "PoP",
+    "classification": "corporate",
+    "version": "1.0",
+    "type": "communication"
+  },
+  "notes": ""
+}

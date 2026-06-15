@@ -1,0 +1,33 @@
+{
+  "map_id": "superloop_backbone_map_2026",
+  "file": {
+    "path": "data/topology-maps/superloop_backbone_map_2026.pdf",
+    "format": "pdf",
+    "original_file_name": "superloop_half-year_results_2026.pdf"
+  },
+  "source": {
+    "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03057766-2A1654165&v=undefined",
+    "publisher": "Superloop",
+    "license": "unknown",
+    "year": "2026",
+    "month": "February"
+  },
+  "acquisition": {
+    "method": "manual_online",
+    "date_acquired": "2026-04-01"
+  },
+  "geolocation": {
+    "regions": ["Australia"],
+    "coverage": "country"
+  },
+  "content": {
+    "map_type": "topology map",
+    "network_layer": "isp_backbone",
+    "isp": "Superloop",
+    "internet_layer": "PoP",
+    "classification": "corporate",
+    "version": "1.0",
+    "type": "communication"
+  },
+  "notes": ""
+}

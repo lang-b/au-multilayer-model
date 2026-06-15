@@ -1,0 +1,34 @@
+{
+  "map_id": "nextgen_rbbp_backbone_map_2010",
+  "file": {
+    "path": "data/topology-maps/RBBP_nextgen_backbone_map_aus_2010.png",
+    "format": ".png",
+    "original_file_name": "Update: Rolling out fibre in Australia's backbone blackspots"
+  },
+  "source": {
+    "url": "https://www.itnews.com.au/gallery/update-rolling-out-fibre-in-australias-backbone-blackspots-167481/page32",
+    "publisher": "IT News",
+    "author": null,
+    "license": "unknown",
+    "year": "2010",
+    "month": "February"
+  },
+  "acquisition": {
+    "method": "manual_online",
+    "date_acquired": "2025-04-01"
+  },
+  "geolocation": {
+    "regions": ["australia"],
+    "coverage": "national"
+  },
+  "content": {
+    "map_type": "topology map",
+    "network_layer": "isp_backbone",
+    "isp": "Nextgen",
+    "internet_layer": "PoP",
+    "classification": "corporate",
+    "version": "1.0",
+    "type": "communication"
+  },
+  "notes": "Regional Backbone Blackspots Program (RBBP) for AUS Government."
+}

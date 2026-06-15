@@ -1,0 +1,34 @@
+{
+  "map_id": "nbn_backbone_map_2014",
+  "file": {
+    "path": "data/topology-maps/nbn_backbone_map_2014.pdf",
+    "format": "pdf",
+    "original_file_name": "NBN Co Third Quarter Results.pdf"
+  },
+  "source": {
+    "url": "https://www.nbnco.com.au/content/dam/nbnco2/2018/documents/corporate-reports/nbn-co-quarterly-report-financial-statements-16-april-2014.pdf.coredownload.pdf",
+    "publisher": "National Broadband Network Co",
+    "author": null,
+    "license": "unknown",
+    "year": "2014",
+    "month": null
+  },
+  "acquisition": {
+    "method": "manual_online",
+    "date_acquired": "2026-04-01"
+  },
+  "geolocation": {
+    "regions": ["Australia"],
+    "coverage": "country"
+  },
+  "content": {
+    "map_type": "topology map",
+    "network_layer": "isp_backbone",
+    "isp": "National Broadband Network",
+    "internet_layer": "PoP",
+    "classification": "government",
+    "version": "1.0",
+    "type": "communication"
+  },
+  "notes": ""
+}

@@ -1,0 +1,133 @@
+﻿link_id,u,v,isp,link_type,ownership,availability,srg_cons,srg_ideal
+ADL_DRW_1,ADL_1,DRW_1,telstra,rail_road,owned,constant,ADL_DRW_TER_1,ADL_DRW_TER_1
+PER_DRW_1,PER_1,DRW_1,telstra,road,owned,subject_to_demand,"PER_PHE_TER_1, DRW_PHE_TER_1",PER_DRW_TER_1
+PER_ADL_1,PER_1,ADL_1,telstra,road,owned,constant,PER_ADL_TER_1,PER_ADL_TER_1
+MEL_ADL_1,MEL_1,ADL_1,telstra,rail_road,owned,constant,MEL_ADL_TER_1,MEL_ADL_TER_1
+MEL_HBA_1,MEL_1,HBA_1,telstra,mix,third_party,subject_to_demand,"MEL_LST_SUB_1, HBA_LST_TER_1","MEL_LST_SUB_1, HBA_LST_TER_1"
+MEL_HBA_2,MEL_1,HBA_1,telstra,mix,third_party,subject_to_demand,"MEL_LST_SUB_2, HBA_LST_TER_2","MEL_LST_SUB_2, HBA_LST_TER_2"
+MEL_CBR_1,MEL_1,CBR_1,telstra,road,owned,constant,MEL_CBR_TER_1,MEL_CBR_TER_1
+MEL_CBR_2,MEL_1,CBR_1,telstra,rail_road,owned,constant,MEL_CBR_TER_2,MEL_CBR_TER_2
+SYD_CBR_1,SYD_1,CBR_1,telstra,road,owned,constant,SYD_CBR_TER_1,SYD_CBR_TER_1
+SYD_CBR_2,SYD_1,CBR_1,telstra,rail_road,owned,constant,SYD_CBR_TER_2,SYD_CBR_TER_2
+SYD_PER_1,SYD_1,PER_1,telstra,rail_road,owned,constant,"SYD_ADL_TER_1, PER_ADL_TER_2","SYD_ADL_TER_1, PER_ADL_TER_2"
+SYD_PER_2,SYD_1,PER_1,telstra,sub,third_party,null,SYD_PER_SUB_1,SYD_PER_SUB_1
+SYD_BNE_1,SYD_1,BNE_1,telstra,rail_road,owned,constant,SYD_BNE_TER_1,SYD_BNE_TER_1
+SYD_BNE_2,SYD_1,BNE_1,telstra,rail_road,owned,subject_to_demand,SYD_BNE_TER_2,SYD_BNE_TER_2
+BNE_DRW_1,BNE_1,DRW_1,telstra,road,owned,subject_to_demand,"BNE_ROK_TER_1, TSV_ROK_TER_1, TSV_HGD_TER_1, ISA_HGD_TER_1, DRW_ISA_TER_1",BNE_DRW_TER_1
+SYD_MEL_1,SYD_1,MEL_1,telstra,sub,third_party,null,"SYD_MEL_SUB_1","SYD_MEL_SUB_1"
+SYD_BNE_3,SYD_1,BNE_1,telstra,sub,third_party,null,SYD_BNE_SUB_1,SYD_BNE_SUB_1
+SYD_BNE_4,SYD_1,BNE_1,telstra,sub,third_party,non-operational,SYD_BNE_SUB_2,SYD_BNE_SUB_2
+MEL_ADL_2,MEL_1,ADL_1,telstra,sub,third_party,non-operational,"MEL_ADL_SUB_1, ADL_SMAP_SUB_1","MEL_ADL_SUB_1, ADL_SMAP_SUB_1"
+PER_ADL_2,PER_1,ADL_1,telstra,sub,third_party,non-operational,"PER_ADL_SUB_1, ADL_SMAP_SUB_1","PER_ADL_SUB_1, ADL_SMAP_SUB_1"
+ADL_DRW_1,ADL_1,DRW_1,optus,rail_road,leased_trunk,null,ADL_DRW_TER_1,ADL_DRW_TER_1
+DRW_PHE_1,DRW_1,PHE_1,optus,road,leased_trunk,null,DRW_PHE_TER_1,DRW_PHE_TER_1
+PER_PHE_1,PER_1,PHE_1,optus,road,leased_trunk,null,PER_PHE_TER_1,PER_PHE_TER_1
+PER_PHE_2,PER_1,PHE_1,optus,road,leased_trunk,null,PER_PHE_TER_2,PER_PHE_TER_2
+PER_ADL_1,PER_1,ADL_1,optus,road,leased_trunk,null,PER_ADL_TER_1,PER_ADL_TER_1
+PER_ADL_2,PER_1,ADL_1,optus,rail_road,owned,null,PER_ADL_TER_2,PER_ADL_TER_2
+MEL_ADL_1,MEL_1,ADL_1,optus,rail_road,owned,null,MEL_ADL_TER_1,MEL_ADL_TER_1
+MEL_ADL_2,MEL_1,ADL_1,optus,road,leased_trunk,null,MEL_ADL_TER_2,MEL_ADL_TER_2
+MEL_LST_1,MEL_1,LST_1,optus,mix,leased_trunk,null,MEL_LST_SUB_1,MEL_LST_SUB_1
+MEL_LST_2,MEL_1,LST_1,optus,mix,leased_trunk,null,MEL_LST_SUB_2,MEL_LST_SUB_2
+HBA_LST_1,HBA_1,LST_1,optus,rail_road,leased_trunk,null,HBA_LST_TER_1,HBA_LST_TER_1
+HBA_LST_2,HBA_1,LST_1,optus,road,leased_trunk,null,HBA_LST_TER_2,HBA_LST_TER_2
+MEL_CBR_1,MEL_1,CBR_1,optus,rail_road,owned,null,MEL_CBR_TER_2,MEL_CBR_TER_2
+SYD_MEL_1,SYD_1,MEL_1,optus,road,owned,null,SYD_MEL_TER_1,SYD_MEL_TER_1
+SYD_CBR_1,SYD_1,CBR_1,optus,rail_road,owned,null,SYD_CBR_TER_2,SYD_CBR_TER_2
+SYD_PER_1,SYD_1,PER_1,optus,sub,third_party,null,SYD_PER_SUB_1,SYD_PER_SUB_1
+SYD_BNE_1,SYD_1,BNE_1,optus,rail_road,owned,null,SYD_BNE_TER_1,SYD_BNE_TER_1
+SYD_BNE_2,SYD_1,BNE_1,optus,rail_road,owned,null,SYD_BNE_TER_2,SYD_BNE_TER_2
+SYD_BNE_3,SYD_1,BNE_1,optus,sub,third_party,null,SYD_BNE_SUB_1,SYD_BNE_SUB_1
+BNE_ROK_1,BNE_1,ROK_1,optus,rail_road,owned,null,BNE_ROK_TER_1,BNE_ROK_TER_1
+TSV_ROK_1,TSV_1,ROK_1,optus,rail_road,owned,null,TSV_ROK_TER_1,TSV_ROK_TER_1
+BNE_TSV_1,BNE_1,TSV_1,optus,road,leased_trunk,null,"BNE_ROK_TER_3, TSV_ROK_TER_2","BNE_ROK_TER_3, TSV_ROK_TER_2"
+BNE_TSV_2,BNE_1,TSV_1,optus,road,leased_trunk,null,BNE_TSV_TER_1,BNE_TSV_TER_1
+ADL_DRW_1,ADL_1,DRW_1,aarnet,rail_road,null,null,ADL_DRW_TER_1,ADL_DRW_TER_1
+PER_ADL_1,PER_1,ADL_1,aarnet,road,null,null,PER_ADL_TER_1,PER_ADL_TER_1
+PER_ADL_2,PER_1,ADL_1,aarnet,rail_road,null,null,PER_ADL_TER_2,PER_ADL_TER_2
+SYD_PER_1,SYD_1,PER_1,aarnet,sub,null,null,SYD_PER_SUB_1,SYD_PER_SUB_1
+MEL_ADL_1,MEL_1,ADL_1,aarnet,rail_road,null,null,MEL_ADL_TER_1,MEL_ADL_TER_1
+MEL_ADL_2,MEL_1,ADL_1,aarnet,road,null,null,MEL_ADL_TER_2,MEL_ADL_TER_2
+MEL_HBA_1,MEL_1,HBA_1,aarnet,mix,null,null,"MEL_LST_SUB_3, HBA_LST_TER_1","MEL_LST_SUB_3, HBA_LST_TER_1"
+MEL_HBA_2,MEL_1,HBA_1,aarnet,mix,null,null,"MEL_LST_SUB_2, HBA_LST_TER_2","MEL_LST_SUB_2, HBA_LST_TER_2"
+MEL_CBR_1,MEL_1,CBR_1,aarnet,rail_road,null,null,MEL_CBR_TER_2,MEL_CBR_TER_2
+SYD_MEL_1,SYD_1,MEL_1,aarnet,rail_road,null,null,SYD_MEL_TER_2,SYD_MEL_TER_2
+SYD_CBR_1,SYD_1,CBR_1,aarnet,rail_road,null,null,SYD_CBR_TER_2,SYD_CBR_TER_2
+SYD_CBR_2,SYD_1,CBR_1,aarnet,rail_road,null,null,SYD_CBR_TER_3,SYD_CBR_TER_3
+SYD_BNE_1,SYD_1,BNE_1,aarnet,rail_road,null,null,SYD_BNE_TER_1,SYD_BNE_TER_1
+SYD_BNE_2,SYD_1,BNE_1,aarnet,rail_road,null,null,SYD_BNE_TER_2,SYD_BNE_TER_2
+SYD_BNE_3,SYD_1,BNE_1,aarnet,road,null,null,SYD_BNE_TER_3,SYD_BNE_TER_3
+BNE_ROK_1,BNE_1,ROK_1,aarnet,rail_road,null,null,BNE_ROK_TER_1,BNE_ROK_TER_1
+BNE_ROK_2,BNE_1,ROK_1,aarnet,road,null,null,BNE_ROK_TER_2,BNE_ROK_TER_2
+BNE_ROK_3,BNE_1,ROK_1,aarnet,road,null,null,BNE_ROK_TER_3,BNE_ROK_TER_3
+TSV_ROK_1,TSV_1,ROK_1,aarnet,rail_road,null,null,TSV_ROK_TER_1,TSV_ROK_TER_1
+TSV_ROK_2,TSV_1,ROK_1,aarnet,road,null,null,TSV_ROK_TER_2,TSV_ROK_TER_2
+TSV_ISA_1,TSV_1,ISA_1,aarnet,rail_road,null,null,"TSV_HGD_TER_1, ISA_HGD_TER_1","TSV_HGD_TER_1, ISA_HGD_TER_1"
+ROK_ISA_1,ROK_1,ISA_1,aarnet,road,null,null,"ROK_LRE_TER_1, LRE_ISA_TER_1","ROK_LRE_TER_1, LRE_ISA_TER_1"
+DRW_ISA_1,DRW_1,ISA_1,aarnet,road,null,null,DRW_ISA_TER_1,DRW_ISA_TER_1
+SYD_BNE_3,SYD_1,BNE_1,aarnet,sub,null,null,SYD_BNE_SUB_1,SYD_BNE_SUB_1
+ADL_DRW_1,ADL_1,DRW_1,abb,rail_road,null,null,ADL_DRW_TER_1,ADL_DRW_TER_1
+PER_DRW_1,PER_1,DRW_1,abb,road,null,null,"PER_PHE_TER_1, DRW_PHE_TER_1",PER_DRW_TER_1
+PER_ADL_1,PER_1,ADL_1,abb,road,null,null,PER_ADL_TER_1,PER_ADL_TER_1
+PER_ADL_2,PER_1,ADL_1,abb,sub,third_party,non-operational,"PER_ADL_SUB_1, ADL_SMAP_SUB_1","PER_ADL_SUB_1, ADL_SMAP_SUB_1"
+MEL_ADL_1,MEL_1,ADL_1,abb,rail_road,null,null,MEL_ADL_TER_1,MEL_ADL_TER_1
+MEL_ADL_2,MEL_1,ADL_1,abb,sub,third_party,non-operational,"MEL_ADL_SUB_1, ADL_SMAP_SUB_1","MEL_ADL_SUB_1, ADL_SMAP_SUB_1"
+MEL_LST_1,MEL_1,LST_1,abb,mix,null,null,MEL_LST_SUB_1,MEL_LST_SUB_1
+MEL_HBA_1,MEL_1,HBA_1,abb,mix,null,null,"MEL_LST_SUB_2, HBA_LST_TER_2","MEL_LST_SUB_2, HBA_LST_TER_2"
+HBA_LST_1,HBA_1,LST_1,abb,road,null,null,HBA_LST_TER_1,HBA_LST_TER_1
+MEL_CBR_1,MEL_1,CBR_1,abb,rail_road,null,null,MEL_CBR_TER_2,MEL_CBR_TER_2
+SYD_MEL_1,SYD_1,MEL_1,abb,rail_road,null,null,SYD_MEL_TER_2,SYD_MEL_TER_2
+SYD_MEL_2,SYD_1,MEL_1,abb,road,null,null,"MEL_CBR_TER_2, SYD_CBR_TER_2",SYD_MEL_TER_3
+SYD_MEL_3,SYD_1,MEL_1,abb,sub,third_party,null,SYD_MEL_SUB_1,SYD_MEL_SUB_1
+SYD_CBR_1,SYD_1,CBR_1,abb,road,null,null,SYD_CBR_TER_1,SYD_CBR_TER_1
+SYD_CBR_2,SYD_1,CBR_1,abb,rail_road,null,null,SYD_CBR_TER_2,SYD_CBR_TER_2
+SYD_ADL_1,SYD_1,ADL_1,abb,rail_road,null,null,SYD_ADL_TER_1,SYD_ADL_TER_1
+SYD_BNE_1,SYD_1,BNE_1,abb,rail_road,null,null,SYD_BNE_TER_1,SYD_BNE_TER_1
+SYD_BNE_2,SYD_1,BNE_1,abb,rail_road,null,null,SYD_BNE_TER_2,SYD_BNE_TER_2
+SYD_BNE_3,SYD_1,BNE_1,abb,road,null,null,SYD_BNE_TER_3,SYD_BNE_TER_3
+SYD_PER_1,SYD_1,PER_1,abb,sub,third_party,null,SYD_PER_SUB_1,SYD_PER_SUB_1
+PER_ADL_1,PER_1,ADL_1,vocus,rail_road,owned,null,PER_ADL_TER_2,PER_ADL_TER_2
+PER_ADL_2,PER_1,ADL_1,vocus,road,third_party,null,PER_ADL_TER_1,PER_ADL_TER_1
+PER_PHE_1,PER_1,PHE_1,vocus,road,planned,non-operational,PER_PHE_TER_3,PER_PHE_TER_3
+PER_PHE_2,PER_1,PHE_1,vocus,sub,owned,null,PER_PHE_SUB_1,PER_PHE_SUB_1
+PER_DRW_1,PER_1,DRW_1,vocus,sub,owned,non-operational,PER_DRW_SUB_1,PER_DRW_SUB_1
+DRW_PHE_1,DRW_1,PHE_1,vocus,sub,owned,null,DRW_PHE_SUB_1,DRW_PHE_SUB_1
+MEL_PER_1,MEL_1,PER_1,vocus,sub,owned,non-operational,MEL_PER_SUB_1,MEL_PER_SUB_1
+ADL_DRW_1,ADL_1,DRW_1,vocus,rail_road,owned,null,ADL_DRW_TER_1,ADL_DRW_TER_1
+MEL_ADL_1,MEL_1,ADL_1,vocus,rail_road,owned,null,MEL_ADL_TER_1,MEL_ADL_TER_1
+MEL_ADL_2,MEL_1,ADL_1,vocus,road,RBBP,null,MEL_ADL_TER_2,MEL_ADL_TER_2
+MEL_HBA_1,MEL_1,HBA_1,vocus,mix,third_party,null,"MEL_LST_SUB_2, HBA_LST_TER_2","MEL_LST_SUB_1, HBA_LST_TER_1"
+MEL_CBR_1,MEL_1,CBR_1,vocus,rail_road,owned,null,MEL_CBR_TER_2,MEL_CBR_TER_2
+MEL_CBR_2,MEL_1,CBR_1,vocus,road,owned,null,MEL_CBR_TER_2,MEL_CBR_TER_3
+SYD_CBR_1,SYD_1,CBR_1,vocus,rail_road,owned,null,SYD_CBR_TER_2,SYD_CBR_TER_2
+SYD_CBR_2,SYD_1,CBR_1,vocus,rail_road,owned,null,SYD_CBR_TER_2,SYD_CBR_TER_3
+SYD_MEL_1,SYD_1,MEL_1,vocus,rail_road,owned,null,SYD_MEL_TER_2,SYD_MEL_TER_2
+SYD_BNE_1,SYD_1,BNE_1,vocus,rail_road,owned,null,SYD_BNE_TER_1,SYD_BNE_TER_1
+SYD_BNE_2,SYD_1,BNE_1,vocus,rail_road,owned,null,SYD_BNE_TER_2,SYD_BNE_TER_2
+SYD_BNE_3,SYD_1,BNE_1,vocus,road,owned,null,SYD_BNE_TER_3,SYD_BNE_TER_3
+SYD_BNE_4,SYD_1,BNE_1,vocus,sub,owned,non-operational,SYD_BNE_SUB_3,SYD_BNE_SUB_3
+SYD_MEL_2,SYD_1,MEL_1,vocus,sub,owned,non-operational,SYD_MEL_SUB_2,SYD_MEL_SUB_2
+BNE_ISA_1,BNE_1,ISA_1,vocus,road,RBBP,null,"BNE_ROK_TER_3, ROK_LRE_TER_1, LRE_HGD_TER_1, ISA_HGD_TER_1","BNE_ROK_TER_3, ROK_LRE_TER_1, LRE_HGD_TER_1, ISA_HGD_TER_1"
+BNE_TSV_1,BNE_1,TSV_1,vocus,rail_road,third_party,null,"BNE_ROK_TER_1, TSV_ROK_TER_1","BNE_ROK_TER_1, TSV_ROK_TER_1"
+TSV_ISA_1,TSV_1,ISA_1,vocus,rail_road,owned,null,"TSV_HGD_TER_1, ISA_HGD_TER_1","TSV_HGD_TER_1, ISA_HGD_TER_1"
+DRW_ISA_1,DRW_1,ISA_1,vocus,road,owned,null,DRW_ISA_TER_1,DRW_ISA_TER_1
+ADL_DRW_1,ADL_1,DRW_1,superloop,rail_road,null,null,ADL_DRW_TER_1,ADL_DRW_TER_1
+PER_DRW_1,PER_1,DRW_1,superloop,road,null,null,"PER_PHE_TER_1, DRW_PHE_TER_1",PER_DRW_TER_1
+PER_ADL_1,PER_1,ADL_1,superloop,road,null,null,PER_ADL_TER_1,PER_ADL_TER_1
+PER_ADL_2,PER_1,ADL_1,superloop,rail_road,null,null,PER_ADL_TER_2,PER_ADL_TER_2
+SYD_PER_1,SYD_1,PER_1,superloop,sub,null,null,SYD_PER_SUB_1,SYD_PER_SUB_1
+SYD_ADL_1,SYD_1,ADL_1,superloop,rail_road,null,null,SYD_ADL_TER_1,SYD_ADL_TER_1
+BNE_DRW_1,BNE_1,DRW_1,superloop,road,null,null,"BNE_ROK_TER_3, ROK_LRE_TER_1, LRE_HGD_TER_1, ISA_HGD_TER_1, DRW_ISA_TER_1",BNE_DRW_TER_1
+MEL_ADL_1,MEL_1,ADL_1,superloop,rail_road,null,null,MEL_ADL_TER_1,MEL_ADL_TER_1
+MEL_HBA_1,MEL_1,HBA_1,superloop,mix,null,null,"MEL_LST_SUB_1, HBA_LST_TER_1","MEL_LST_SUB_1, HBA_LST_TER_1"
+MEL_HBA_2,MEL_1,HBA_1,superloop,mix,null,null,"MEL_LST_SUB_2, HBA_LST_TER_2","MEL_LST_SUB_2, HBA_LST_TER_2"
+MEL_CBR_1,MEL_1,CBR_1,superloop,road,null,null,MEL_CBR_TER_2,MEL_CBR_TER_1
+SYD_CBR_1,SYD_1,CBR_1,superloop,road,null,null,SYD_CBR_TER_2,SYD_CBR_TER_1
+SYD_MEL_1,SYD_1,MEL_1,superloop,rail_road,null,null,"MEL_CBR_TER_2, SYD_CBR_TER_2","MEL_CBR_TER_2, SYD_CBR_TER_2"
+SYD_MEL_2,SYD_1,MEL_1,superloop,rail_road,null,null,SYD_MEL_TER_2,SYD_MEL_TER_2
+SYD_MEL_3,SYD_1,MEL_1,superloop,road,null,null,SYD_MEL_TER_3,SYD_MEL_TER_3
+SYD_MEL_4,SYD_1,MEL_1,superloop,road,null,null,SYD_MEL_TER_2,SYD_MEL_TER_1
+SYD_BNE_1,SYD_1,BNE_1,superloop,rail_road,null,null,SYD_BNE_TER_1,SYD_BNE_TER_1
+SYD_BNE_2,SYD_1,BNE_1,superloop,rail_road,null,null,SYD_BNE_TER_2,SYD_BNE_TER_2
+SYD_BNE_3,SYD_1,BNE_1,superloop,road,null,null,SYD_BNE_TER_3,SYD_BNE_TER_3
+SYD_BNE_4,SYD_1,BNE_1,superloop,road,null,null,SYD_BNE_TER_1,SYD_BNE_TER_4

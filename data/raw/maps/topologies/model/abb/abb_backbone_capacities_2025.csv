@@ -1,0 +1,37 @@
+From,To,Total Capacity (G),Link Capacities (G),Quantity of Links, Notes
+Adelaide,Darwin,100,100,1,
+Adelaide,Melbourne,200,100,2,
+Adelaide,Perth,200,100,2,
+Adelaide,Sydney,200,100,2,
+Brisbane,Sydney,800,100,8,
+Canberra,Melbourne,100,100,1,
+Canberra,Sydney,200,100,2,
+Darwin,Adelaide,100,100,1,
+Darwin,Perth,100,100,1,
+Hobart,Launceston,200,100,2,
+Hobart,Melbourne,100,100,1,
+Launceston,Hobart,200,100,2,
+Launceston,Melbourne,100,100,2,Quantity could be 1
+Los Angeles,San Jose,100,100,1,
+Los Angeles,Sydney,100,100,1,Telstra Endeavour
+Melbourne,Adelaide,200,100,2,
+Melbourne,Canberra,100,100,1,
+Melbourne,Hobart,100,100,1,
+Melbourne,Launceston,100,100,2,Quantity could be 1
+Melbourne,Perth,200,100,2,
+Melbourne,Sydney,800,400,2,
+Perth,Adelaide,200,100,2,
+Perth,Darwin,100,100,1,
+Perth,Melbourne,200,100,2,
+Perth,Singapore,300,100,3,2x Indigo West; 1x Vocus ASC
+Perth,Sydney,200,100,2,
+Singapore,Perth,300,100,3,2x Indigo West; 1x Vocus ASC
+300G
+San Jose,Los Angeles,100,100,1,
+San Jose,Sydney,100,100,1,Hawaiki
+Sydney,Adelaide,200,100,2,
+Sydney,Canberra,200,100,2,
+Sydney,Los Angeles,100,100,1,Telstra Endeavour
+Sydney,Melbourne,800,400,2,
+Sydney,Perth,200,100,2,
+Sydney,San Jose,100,100,1,Hawaiki

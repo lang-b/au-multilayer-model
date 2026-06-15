@@ -1,0 +1,8 @@
+# Paths
+paths:
+  node_list: data/clean/lists/nodes.csv
+  edge_list: data/clean/lists/edges.csv
+  ixp_list: data/clean/lists/ixps.csv
+  site_list: data/clean/lists/sites.csv
+  srg_list: data/clean/lists/srgs.csv
+  figures: outputs/figures/

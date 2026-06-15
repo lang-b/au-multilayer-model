@@ -1,0 +1,21 @@
+# site_id,name,lat,lon,kind,city,state
+# SYD01,Sydney CBD - site 1,-33.8688,151.2093,MPoP,Sydney,NSW
+# data from https://www.kaggle.com/datasets/maryamalizadeh/worldcities-australia
+# info on IXPs from https://pulse.internetsociety.org/en/ixp-tracker/country/AU/?sort=ixp_location
+site_id,lat,lon,kind,city,state,ixp_count,population
+ADL_1,-34.9289,138.6011,MPoP,Adelaide,SA,14,1345777
+BNE_1,-27.4678,153.0281,MPoP,Brisbane,QLD,16,2514184
+CBR_1,-35.2931,149.1269,MPoP,Canberra,ACT,2,426704
+DRW_1,-12.4381,130.8411,MPoP,Darwin,NT,1,136828
+HBA_1,-42.8806,147.3250,MPoP,Hobart,TAS,1,240342
+MEL_1,-37.8136,144.9631,MPoP,Melbourne,VIC,22,5078193
+PER_1,-31.9522,115.8589,MPoP,Perth,WA,16,2059484
+SYD_1,-33.8650,151.2094,MPoP,Sydney,NSW,46,5312163
+LST_1,-41.4419,147.1450,regional,Launceston,TAS,0,87328
+PHE_1,-20.3100,118.6011,regional,Port Hedland,WA,0,14320
+TSV_1,-19.2564,146.8183,regional,Townsville,QLD,0,180820
+ROK_1,-23.3750,150.5117,regional,Rockhampton,QLD,0,78592
+ISA_1,-20.7333,139.5000,regional,Mount Isa,QLD,0,18588
+HGD_1,-20.8438,144.1986,regional,Hughenden,QLD,0,1136
+LRE_1,-23.4422,144.2491,regional,Longreach,QLD,0,2970
+PUG_1,-32.4925,137.7658,regional,Port Augusta,SA,0,13799

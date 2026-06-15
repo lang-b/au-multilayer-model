@@ -1,0 +1,34 @@
+{
+  "map_id": "vocus_backbone_map_2025",
+  "file": {
+    "path": "data/topology-maps/vocus_backbone_map_2025.webp",
+    "format": "webp",
+    "original_file_name": "58b4560e8deb11f09a43e2940e2f24b8.webp"
+  },
+  "source": {
+    "url": "https://www.vocus.com.au/about-vocus/our-network/australia",
+    "publisher": "Vocus",
+    "author": null,
+    "license": "unknown",
+    "year": "2025",
+    "month": null
+  },
+  "acquisition": {
+    "method": "manual_online",
+    "date_acquired": "2025-01-26"
+  },
+  "geolocation": {
+    "regions": ["Australia"],
+    "coverage": "country"
+  },
+  "content": {
+    "map_type": "topology map",
+    "network_layer": "isp_backbone",
+    "isp": "Vocus",
+    "internet_layer": "PoP",
+    "classification": "corporate",
+    "version": "1.0",
+    "type": "communication"
+  },
+  "notes": ""
+}

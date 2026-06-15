@@ -1,0 +1,34 @@
+{
+  "map_id": "zayo_backbone_map_2025",
+  "file": {
+    "path": "data/topology-maps/zayo_backbone_map_2025.pdf",
+    "format": "pdf",
+    "original_file_name": "2025_Zayo_Mapbook_Q2.pdf"
+  },
+  "source": {
+    "url": "https://www.zayo.com/network/",
+    "publisher": "Zayo",
+    "author": null,
+    "license": "unknown",
+    "year": "2025",
+    "month": null
+  },
+  "acquisition": {
+    "method": "manual_online",
+    "date_acquired": "2025-01-26"
+  },
+  "geolocation": {
+    "regions": ["North America","Europe"],
+    "coverage": "international"
+  },
+  "content": {
+    "map_type": "topology map",
+    "network_layer": "isp_backbone",
+    "isp": "Zayo",
+    "internet_layer": "PoP",
+    "classification": "corporate",
+    "version": "1.0",
+    "type": "communication"
+  },
+  "notes": ""
+}

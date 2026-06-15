@@ -1,0 +1,34 @@
+{
+  "map_id": "telstra_global_map_2025",
+  "file": {
+    "path": "data/topology-maps/telstra_global_map_2025.pdf",
+    "format": ".pdf",
+    "original_file_name": "network-and-infrastructure-map.pdf"
+  },
+  "source": {
+    "url": "https://www.telstrainternational.com/content/dam/shared-component-assets/telstra-international/global/products/wholesale/network-and-infrastructure-map.pdf",
+    "publisher": "Telstra",
+    "author": null,
+    "license": "unknown",
+    "year": "2025",
+    "month": "April"
+  },
+  "acquisition": {
+    "method": "manual_online",
+    "date_acquired": "2025-01-26"
+  },
+  "geolocation": {
+    "regions": ["world"],
+    "coverage": "international"
+  },
+  "content": {
+    "map_type": "topology map",
+    "network_layer": "isp_backbone",
+    "isp": "Telstra",
+    "internet_layer": "PoP",
+    "classification": "corporate",
+    "version": "1.0",
+    "type": "communication"
+  },
+  "notes": ""
+}

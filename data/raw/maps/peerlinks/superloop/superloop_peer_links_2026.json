@@ -1,0 +1,31 @@
+{
+  "map_id": "superloop_peer_links_2026",
+  "file": {
+    "path": "data/peer-links/superloop_peer_link_2026.pdf",
+    "format": "pdf",
+    "original_file_name": "https://www.superloop.com/enterprise/network/superloop-network/"
+  },
+  "source": {
+    "url": "https://www.superloop.com/enterprise/network/superloop-network/",
+    "publisher": "Superloop",
+    "license": "unknown",
+    "year": "2026",
+    "month": "April"
+  },
+  "acquisition": {
+    "method": "manual_online",
+    "date_acquired": "2026-04-01"
+  },
+  "geolocation": {
+    "regions": ["Australia"],
+    "coverage": "country"
+  },
+  "content": {
+    "data": ["PoP", "Data Centres", "IXPs"],
+    "isp": "Superloop",
+    "classification": "corporate",
+    "version": "1.0",
+    "type": "communication"
+  },
+  "notes": ""
+}

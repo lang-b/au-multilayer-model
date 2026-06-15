@@ -1,0 +1,34 @@
+{
+  "map_id": "iinet_backbone_map_2016",
+  "file": {
+    "path": "data/topology-maps/iinet_backbone_map_2016.png",
+    "format": "png",
+    "original_file_name": null
+  },
+  "source": {
+    "url": "https://bbmaps.itu.int/validation/?p=1939",
+    "publisher": "iinet",
+    "author": null,
+    "license": "unknown",
+    "year": "2016",
+    "month": null
+  },
+  "acquisition": {
+    "method": "manual_online",
+    "date_acquired": "2025-01-26"
+  },
+  "geolocation": {
+    "regions": ["Australia"],
+    "coverage": "country"
+  },
+  "content": {
+    "map_type": "topology map",
+    "network_layer": "isp_backbone",
+    "isp": "iinet",
+    "internet_layer": "PoP",
+    "classification": "corporate",
+    "version": "1.0",
+    "type": "communication"
+  },
+  "notes": ""
+}
