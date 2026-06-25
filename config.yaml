@@ -1,8 +1,11 @@
 # Paths
 paths:
-  node_list: data/clean/lists/nodes.csv
-  edge_list: data/clean/lists/edges.csv
-  ixp_list: data/clean/lists/ixps.csv
-  site_list: data/clean/lists/sites.csv
-  srg_list: data/clean/lists/srgs.csv
-  figures: outputs/figures/
+  node_list: ../data/clean/lists/nodes.csv
+  edge_list: ../data/clean/lists/edges.csv
+  ixp_list: ../data/clean/lists/ixps.csv
+  site_list: ../data/clean/lists/sites.csv
+  srg_list: ../data/clean/lists/srgs.csv
+  figures_folder: ../outputs/figures/
+  tabular_folder: ../data/processed/tabular/
+  graph_folder: ../data/processed/graphs/
+  results_folder: ../outputs/results/
