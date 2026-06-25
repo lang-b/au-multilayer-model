@@ -1,9 +1,5 @@
-# au-multilayer-model
-The original maps, topologies, and code to create the Australian multilayer network model, along with code to perform the robustness analysis.
-Uses Python version... specifically use matplotlib 3.10+ for the new managua cmap, which we use for one of the Australia maps. 
-
 # Australian Internet Topology Multilayer Model
-A robustness analysis of Australia's Internet using a multilayer network model. The analysis considers individual network topologies from Internet Service Providers (ISPs) in Australia. We evaluate the interactions of these networks, both through Shared Risk Link Groups (SRLGs) and peering via Internet Exchange Points (IXPs). We provide the topologies themselves and associated metadata, and the code used to develop the multilayer model and perform the failure analysis. We study six major Australian ISPs: AARNet, Aussie Broadband (ABB), Optus, Superloop, Telstra, and Vocus. 
+A robustness analysis of Australia's Internet using a multilayer network model. The analysis considers individual network topologies from Internet Service Providers (ISPs) in Australia. We evaluate the interactions of these networks, both through Shared Risk Link Groups (SRLGs) and peering via Internet Exchange Points (IXPs). We provide the original maps (topologies) and associated metadata, and the code used to develop the multilayer model and perform the failure analysis. We study six major Australian ISPs: AARNet, Aussie Broadband (ABB), Optus, Superloop, Telstra, and Vocus. 
 
 The corresponding pre-print is provided at: https://arxiv.org/abs/2606.18737
 
@@ -89,6 +85,8 @@ cd au-multilayer-model
 pip install -r requirements.txt
 ```
 
+Specifically, use matplotlib 3.10.0+ for the new managua cmap, which we use for one of the Australia maps in `05_visualisation.ipynb`. 
+
 ---
 
 ## Running the Analysis
@@ -97,7 +95,7 @@ Run the notebooks in order. Each notebook saves its outputs to `data/processed/f
 
 ```
 01_data_loading.ipynb:  builds G_full
-02_srg_grouping.ipynb: builds G_srg_c and saves srg_c.csv
+02_srg_grouping.ipynb:  builds G_srg_c and saves srg_c.csv
 03_simulation.ipynb:    saves single.csv, double.csv
 04_analysis.ipynb:      saves failures.csv, city_isp_fail_counts.csv, srg_summary.csv, ...
 05_visualisation.ipynb: saves figures to outputs/figures/
