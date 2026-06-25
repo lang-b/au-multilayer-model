@@ -22,7 +22,7 @@ The corresponding pre-print is provided at: https://arxiv.org/abs/2606.18737
 │   └── support_docs/                # Supporting documentation for defining SRLGs
 ├── notebooks/
 │   ├── 01_data_loading.ipynb        # Load CSVs and build the supra-graph
-│   ├── 02_SRLG_grouping.ipynb        # Assign edges to SRLGs, build SRLG graphs
+│   ├── 02_srg_grouping.ipynb        # Assign edges to SRLGs, build SRLG graphs
 │   ├── 03_simulation.ipynb          # Run single and double SRLG removal scenarios
 │   ├── 04_analysis.ipynb            # Failure summaries by city, ISP, and SRLG
 │   └── 05_visualisation.ipynb       # All publication figures
@@ -30,7 +30,7 @@ The corresponding pre-print is provided at: https://arxiv.org/abs/2606.18737
 │   ├── constants.py                 # ISP metadata, colours, geographic bounds
 │   ├── network/
 │   │   ├── build.py                 # Build supra-graph from node/edge CSVs
-│   │   └── SRLG.py                   # SRLG DataFrame and graph construction
+│   │   └── srg.py                   # SRLG DataFrame and graph construction
 │   ├── simulation/
 │   │   └── failures.py              # Initial network metrics and SRLG failure scenario runners
 │   ├── analysis/
